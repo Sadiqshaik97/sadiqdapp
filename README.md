@@ -1,40 +1,35 @@
-## Create Aptos Dapp Boilerplate Template
+Here’s a professional README.md template for your *Energy Trading DApp* project. You can customize the *Contract Details* section later with your content.
 
-The Boilerplate template provides a starter dapp with all necessary dapp infrastructure and a simple wallet info implementation, transfer APT and a simple message board functionality to send and read a message on chain.
+---
 
-## Read the Boilerplate template docs
+markdown
+# ⚡ Energy Trading DApp on Aptos Blockchain
 
-To get started with the Boilerplate template and learn more about the template functionality and usage, head over to the [Boilerplate template docs](https://learn.aptoslabs.com/en/dapp-templates/boilerplate-template)
+## 📝 Project Description
 
-## The Boilerplate template provides:
+The **Energy Trading DApp** is a decentralized application built on the Aptos blockchain that allows users to list and trade energy units in a transparent, trustless, and secure environment. It connects energy producers and consumers directly using blockchain technology, eliminating middlemen and fostering a peer-to-peer energy economy.
 
-- **Folder structure** - A pre-made dapp folder structure with a `frontend` and `contract` folders.
-- **Dapp infrastructure** - All required dependencies a dapp needs to start building on the Aptos network.
-- **Wallet Info implementation** - Pre-made `WalletInfo` components to demonstrate how one can use to read a connected Wallet info.
-- **Transfer APT implementation** - Pre-made `transfer` components to send APT to an address.
-- **Message board functionality implementation** - Pre-made `message` components to send and read a message on chain
+## 🌍 Project Vision
 
-## What tools the template uses?
+Our vision is to empower communities and individuals to **generate**, **share**, and **trade** energy in a decentralized and sustainable way. By leveraging the Aptos blockchain, this platform ensures **immutability**, **transparency**, and **decentralization** in the energy sector.
 
-- React framework
-- Vite development tool
-- shadcn/ui + tailwind for styling
-- Aptos TS SDK
-- Aptos Wallet Adapter
-- Node based Move commands
-- [Vite-pwa](https://vite-pwa-org.netlify.app/)
+## 🚀 Key Features
 
-## What Move commands are available?
+- 🔐 **Wallet Integration**: Seamless wallet connection via Petra for secure user interaction.
+- 📦 **Energy Listing**: Producers can list energy units with a defined price per unit.
+- 💱 **Energy Purchase**: Consumers can buy energy from any listed sellers using listing ID.
+- 📜 **Smart Contract Enforcement**: Trades are recorded and validated through Move smart contracts.
+- 💡 **Simple UI**: React-based frontend for easy trade listing and submission.
+- 🎨 **Smooth Animations**: Framer Motion powered transitions and UI feedback.
+- 🔁 **Scalable Design**: Modular architecture to support trade history, auctions, etc.
 
-The tool utilizes [aptos-cli npm package](https://github.com/aptos-labs/aptos-cli) that lets us run Aptos CLI in a Node environment.
+## 🔮 Future Scope
 
-Some commands are built-in the template and can be ran as a npm script, for example:
+- 📊 **Energy Trade Analytics**: Real-time dashboard for trade volume and user stats.
+- 🔗 **Cross-Chain Integration**: Compatibility with other chains like Ethereum or Sui.
+- 🏷 **Tokenization of Energy Units**: ERC20-style tokens representing energy.
+- 🧾 **On-chain Payment Settlement**: Full APT transfers during purchase (currently simulated).
+- 📱 **Mobile Friendly**: Responsive mobile-first design and mobile wallet integration.
+- 🧠 **AI Energy Pricing Bot**: Suggest optimal prices based on market demand.
 
-- `npm run move:publish` - a command to publish the Move contract
-- `npm run move:test` - a command to run Move unit tests
-- `npm run move:compile` - a command to compile the Move contract
-- `npm run move:upgrade` - a command to upgrade the Move contract
-- `npm run dev` - a command to run the frontend locally
-- `npm run deploy` - a command to deploy the dapp to Vercel
-
-For all other available CLI commands, can run `npx aptos` and see a list of all available commands.
+## 🔐 Contract Details
